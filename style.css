@@ -1,0 +1,45 @@
+#dino,#ground{
+    position: absolute;
+    top: 50%;
+}
+
+#dino{
+    top: calc(50% - 70px);
+    transition: all 0.3s;
+    left: 10px;
+   /* background-color: red;*/
+}
+
+body{
+    overflow: hidden;
+}
+/*2399*/
+
+.cactus{
+    display: flex;
+  /*  background-color: skyblue;*/
+}
+
+#score{
+    width: 150px;
+    height: 100px;
+    background-color: wheat;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lose{
+    display: none;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 6;
+    margin: auto;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
